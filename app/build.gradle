@@ -1,21 +1,6 @@
 apply plugin: 'com.android.application'
 
 android {
-    signingConfigs {
-        release {
-            keyAlias 'test'
-            keyPassword 'test123'
-            storeFile file('../debug.jks')
-            storePassword 'test123'
-        }
-
-        debug {
-            keyAlias 'test'
-            keyPassword 'test123'
-            storeFile file('../debug.jks')
-            storePassword 'test123'
-        }
-    }
 
     compileSdkVersion 28
     defaultConfig {
